@@ -1,0 +1,19 @@
+{
+    "name": "Go by Example",
+    "description": "Hands-on introduction to Go using annotated example programs",
+    "website": "https://gobyexample.com/",
+    "repository": "https://github.com/mmcgrana/gobyexample",
+    "logo": "https://raw.githubusercontent.com/mmcgrana/gobyexample/master/public/favicon.ico",
+    "keywords": [
+        "go",
+        "golang",
+        "examples"
+    ],
+    "env": {
+        "BUILDPACK_URL": "https://github.com/mmcgrana/buildpack-go.git",
+        "CANONICAL_HOST": {
+            "generator": "app_name"
+        },
+        "FORCE_HTTPS": "1"
+    }
+}

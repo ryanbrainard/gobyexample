@@ -49,6 +49,8 @@ $ foreman open
 
 Basic setup:
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ```bash
 $ export DEPLOY=$USER
 $ export APP=gobyexample-$USER
